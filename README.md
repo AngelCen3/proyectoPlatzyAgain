@@ -43,9 +43,10 @@ ___
 ---
 
 
-## Este es un ejemplo de codigo 
+## Este es un ejemplo de codigo
 
-`<?php
+```
+<?php
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -70,4 +71,4 @@ Route::get('buscar', function(Request $request) {
     //simularemos una consulta a base de datos
     return $request->all();
 });
-`
+```
