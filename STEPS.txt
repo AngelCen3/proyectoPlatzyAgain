@@ -1,0 +1,21 @@
+php artisan make:controller --help // para visualizar ayuda hacerca de este comando
+Un modelo es un archivo que representa una clase o una tabla y apartir de ahi puedo hacer consultas etc ...
+Lo primero que haremos es la definicion de Rutas
+    Para eso nos vamos a la carpeta --> routes y en este caso web.php
+
+    Route::get consultar
+    Route::post Guardar
+    Route::delete Borrar
+    Route::put actulizar
+
+Para manejar solicitudes php del usuario tenemos que importar una clase
+La clase Request proporciona métodos para recuperar los datos de la solicitud HTTP.
+Este ejercicio de Laravel muestra cómo manejar datos enviados a través de una solicitud
+GET y cómo devolver esos datos como respuesta.
+
+        use Illuminate\Http\Request;
+
+        Route::get('buscar', function(Request $request) {
+            //simularemos una consulta a base de datos
+            return $request->all();
+        });
