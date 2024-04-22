@@ -42,33 +42,40 @@
 ___
 ---
 
-
 ## Este es un ejemplo de codigo
 
+```php
+
+    <?php
+
+    use Illuminate\Http\Request;
+    use Illuminate\Support\Facades\Route;
+
+    /*Route::get('/', function () {    //Viene por defecto
+        return view('welcome');
+    });*/
+
+    Route::get('/', function () {
+        return 'Ruta home';
+    });
+
+    Route::get('/blog  ', function () {
+        return 'Listado de publicaciones';
+    });
+
+    Route::get('/blog/{slug}', function($slug) {
+        //simularemos una consulta a base de datos
+        return $slug;
+    });
+    Route::get('buscar', function(Request $request) {
+        //simularemos una consulta a base de datos
+        return $request->all();
+    );
 ```
-<?php
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
-
-/*Route::get('/', function () {    //Viene por defecto
-    return view('welcome');
-});*/
-
-Route::get('/', function () {
-    return 'Ruta home';
-});
-
-Route::get('/blog  ', function () {
-    return 'Listado de publicaciones';
-});
-
-Route::get('/blog/{slug}', function($slug) {
-    //simularemos una consulta a base de datos
-    return $slug;
-});
-Route::get('buscar', function(Request $request) {
-    //simularemos una consulta a base de datos
-    return $request->all();
-});
-```
+|Tables   |Are      |Cool    |
+|---------|---------|--------|
+|Esto     |Es       | $456   |
+|Un       |Pequeño  | $456   |
+|Ejemplo  |de       | $456   |
+|Una      |Tabla    | $456   |
