@@ -23,7 +23,9 @@
     * Orange
     * Example: Univers
 
-* Mango
+- George Washington
+* John Adams
++ Thomas Jefferson
 
 1. Margarita
     * Limon - lime
