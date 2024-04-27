@@ -24,11 +24,15 @@
     * Example: Univers
 
 - George Washington
-* John Adams
+
+* - John Adams
+
 + Thomas Jefferson
+
 
 1. Margarita
     * Limon - lime
+
     * Azucar - Sugar
 2. Maiami Vice
     1. Piña Colada
@@ -127,3 +131,8 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | --- | --- |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
+
+# -------------------------------------------------------------
+
+# Video 5 -Views
+
