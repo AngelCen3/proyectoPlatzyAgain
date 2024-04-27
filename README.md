@@ -75,7 +75,7 @@ ___
 
 |Tables   |Are      |Cool    |
 |---------|---------|--------|
-|Esto     |Es       | $456   |
-|Un       |Pequeño  | $456   |
-|Ejemplo  |de       | $456   |
-|Una      |Tabla    | $456   |
+|Esto     |Es       | $56    |
+|Un       |Pequeño  | $6     |
+|Ejemplo  |de       | $36    |
+|Una      |Tabla    | $4     |
